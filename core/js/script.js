@@ -71,7 +71,7 @@
 		});
 		
 	}
-	
+    
 	
 	/*****************************************
 	PROCESS FORM DATA:
@@ -125,6 +125,8 @@
 			
 			// Initialize everything
 			init();
+            $("a[rel='resources']").click();
+            $("div[class='afs-panel'").removeAttribute("hidden");
 		
 		});
 })(jQuery);
